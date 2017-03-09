@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#info_home .close').click(function(){
+            $("#info_home").fadeOut(500);
+        });
+    });
+</script>
+<style>
+    #info_home{position:fixed; left:0; text-align:center; z-index:1000; width:100%; height:100%; display:none;}
+    #info_home .close{width:32px; height:32px; margin:10px; cursor:pointer; position:absolute; top:0; right:0; z-index:2;}
+    #info{margin:auto; top:10%; position: relative;
+        -webkit-box-shadow: 2px 3px 0px 55px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 0px 55px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 0px 55px rgba(0,0,0,0.75);}
+</style>
+</head>
+<body>
+<div id="info_home" style="display: block;">
+    <img src="images/close.png" class="close" title="Close">
+    <img src="images/annoucement_1-01.gif" id="info">
+</div>
+<div style="height: 1200px"> sdsdzxcxzcf</div>
+</body>
+</html>
+
+
